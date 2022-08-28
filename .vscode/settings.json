@@ -1,0 +1,39 @@
+{
+  "eslint.alwaysShowStatus": true,
+  "eslint.lintTask.enable": true,
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "prettier.arrowParens": "always",
+  "prettier.jsxSingleQuote": true,
+  "prettier.semi": false,
+  "prettier.singleQuote": true,
+  "prettier.trailingComma": "all",
+  "prettier.vueIndentScriptAndStyle": true,
+  "editor.codeActionsOnSave": {
+    "source.fixAll": true
+  },
+  "editor.formatOnPaste": true,
+  "editor.formatOnSave": true,
+  "editor.formatOnType": true,
+  "eslint.packageManager": "npm",
+  "eslint.validate": ["javascript", "javascriptreact", "vue", "typescript", "commonjs"],
+  "eslint.workingDirectories": [
+    {
+      "mode": "auto"
+    }
+  ],
+  "files.associations": {
+    "*.css": "tailwindcss"
+  },
+  "tailwindCSS.emmetCompletions": true,
+  "tailwindCSS.includeLanguages": {
+    "javascript": "javascript",
+    "plaintext": "html",
+    "vue": "html"
+  },
+  "tailwindCSS.lint.cssConflict": "error",
+  "tailwindCSS.lint.recommendedVariantOrder": "error",
+  "editor.quickSuggestions": {
+    "comments": "on",
+    "strings": "on"
+  }
+}
