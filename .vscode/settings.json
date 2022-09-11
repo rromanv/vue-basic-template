@@ -15,7 +15,13 @@
   "editor.formatOnSave": true,
   "editor.formatOnType": true,
   "eslint.packageManager": "npm",
-  "eslint.validate": ["javascript", "javascriptreact", "vue", "typescript", "commonjs"],
+  "eslint.validate": [
+    "javascript",
+    "javascriptreact",
+    "vue",
+    "typescript",
+    "commonjs"
+  ],
   "eslint.workingDirectories": [
     {
       "mode": "auto"
