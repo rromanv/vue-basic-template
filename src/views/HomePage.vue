@@ -1,6 +1,6 @@
 <script setup>
-  import { ref } from 'vue'
-  const title = ref('Hello There ✋')
+import { ref } from 'vue'
+const title = ref('Hello There ✋')
 </script>
 
 <template>

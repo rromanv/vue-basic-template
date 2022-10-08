@@ -12,15 +12,6 @@ module.exports = {
     'prettier/prettier': ['error'],
     'arrow-body-style': 'off',
     'prefer-arrow-callback': 'off',
-    'vue/script-indent': [
-      'error',
-      1,
-      {
-        baseIndent: 2,
-        switchCase: 2,
-        ignores: [],
-      },
-    ],
   },
   env: {
     browser: true,
