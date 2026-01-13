@@ -5,8 +5,8 @@ A modern Vue 3 starter template with Vite, Tailwind CSS, ESLint, and Prettier.
 ## Features
 
 - ⚡️ [Vue 3](https://vuejs.org/) with `<script setup>` SFC syntax
-- 🚀 [Vite 5](https://vitejs.dev/) for blazing fast development
-- 🎨 [Tailwind CSS 3.4](https://tailwindcss.com/) with official plugins
+- 🚀 [Vite 6](https://vite.dev/) for blazing fast development
+- 🎨 [Tailwind CSS 4](https://tailwindcss.com/) with CSS-first configuration
 - 📦 [Vue Router 4](https://router.vuejs.org/) for routing
 - 🔍 [ESLint 9](https://eslint.org/) with flat config
 - 💅 [Prettier 3](https://prettier.io/) with Tailwind CSS plugin
@@ -36,14 +36,14 @@ npm run preview
 
 ## Available Scripts
 
-| Script          | Description                              |
-| --------------- | ---------------------------------------- |
-| `npm run dev`   | Start development server                 |
-| `npm run build` | Build for production                     |
-| `npm run preview` | Preview production build               |
-| `npm run lint`  | Lint and auto-fix with ESLint            |
-| `npm run lint:check` | Check linting without auto-fix       |
-| `npm run format` | Format code with Prettier               |
+| Script               | Description                       |
+| -------------------- | --------------------------------- |
+| `npm run dev`        | Start development server          |
+| `npm run build`      | Build for production              |
+| `npm run preview`    | Preview production build          |
+| `npm run lint`       | Lint and auto-fix with ESLint     |
+| `npm run lint:check` | Check linting without auto-fix    |
+| `npm run format`     | Format code with Prettier         |
 | `npm run format:check` | Check formatting without auto-fix |
 
 ## Project Structure
@@ -59,15 +59,11 @@ npm run preview
 │   ├── router.js        # Vue Router configuration
 │   └── style.css        # Global styles with Tailwind
 ├── eslint.config.js     # ESLint flat config
-├── postcss.config.js    # PostCSS configuration
-├── tailwind.config.js   # Tailwind CSS configuration
-└── vite.config.js       # Vite configuration
+└── vite.config.js       # Vite configuration with Tailwind plugin
 ```
 
-## Tailwind CSS Plugins
+## Tailwind CSS 4
 
-This template includes the following Tailwind CSS plugins:
+This template uses Tailwind CSS 4 with the new CSS-first configuration approach. Tailwind is integrated directly as a Vite plugin (`@tailwindcss/vite`), eliminating the need for separate `tailwind.config.js` and `postcss.config.js` files.
 
-- [@tailwindcss/typography](https://tailwindcss.com/docs/typography-plugin) - Beautiful typographic defaults
-- [@tailwindcss/forms](https://github.com/tailwindlabs/tailwindcss-forms) - Form element styles
-- [@tailwindcss/aspect-ratio](https://github.com/tailwindlabs/tailwindcss-aspect-ratio) - Aspect ratio utilities
+To customize Tailwind, use CSS variables and the `@theme` directive in your CSS file. See the [Tailwind CSS documentation](https://tailwindcss.com/docs) for more details.

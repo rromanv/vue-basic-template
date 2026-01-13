@@ -1,13 +1,1 @@
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
-
-html,
-body,
-#app {
-  @apply h-full;
-}
-
-html {
-  @apply overflow-hidden;
-}
+@import 'tailwindcss';
