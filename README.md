@@ -5,7 +5,7 @@ A modern Vue 3 starter template with Vite, Tailwind CSS, ESLint, and Prettier.
 ## Features
 
 - ⚡️ [Vue 3](https://vuejs.org/) with `<script setup>` SFC syntax
-- 🚀 [Vite 6](https://vite.dev/) for blazing fast development
+- 🚀 [Vite 7](https://vite.dev/) for blazing fast development
 - 🎨 [Tailwind CSS 4](https://tailwindcss.com/) with CSS-first configuration
 - 📦 [Vue Router 4](https://router.vuejs.org/) for routing
 - 🔍 [ESLint 9](https://eslint.org/) with flat config
