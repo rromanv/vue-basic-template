@@ -52,12 +52,12 @@ npm run preview
 ├── public/              # Static assets
 ├── src/
 │   ├── assets/          # Asset files (images, fonts, etc.)
+│   │   ├── style.css    # Global styles with Tailwind
 │   ├── components/      # Vue components
 │   ├── views/           # Page components
 │   ├── App.vue          # Root component
 │   ├── main.js          # App entry point
 │   ├── router.js        # Vue Router configuration
-│   └── style.css        # Global styles with Tailwind
 ├── eslint.config.js     # ESLint flat config
 └── vite.config.js       # Vite configuration with Tailwind plugin
 ```
