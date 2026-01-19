@@ -11,5 +11,6 @@
   "arrowParens": "always",
   "vueIndentScriptAndStyle": false,
   "singleAttributePerLine": true,
-  "plugins": ["prettier-plugin-tailwindcss"]
+  "plugins": ["prettier-plugin-tailwindcss"],
+  "tailwindStylesheet": ["./src/assets/style.css"]
 }
