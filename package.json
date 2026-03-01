@@ -13,19 +13,20 @@
     "format:check": "prettier --check src/"
   },
   "dependencies": {
-    "vue": "^3.5.28",
+    "vue": "^3.5.29",
+    "vue-eslint-parser": "^10.4.0",
     "vue-router": "^5.0.3"
   },
   "devDependencies": {
-    "@eslint/js": "^9.39.3",
-    "@tailwindcss/vite": "^4.2.0",
+    "@eslint/js": "^10.0.1",
+    "@tailwindcss/vite": "^4.2.1",
     "@vitejs/plugin-vue": "^6.0.4",
-    "eslint": "^9.39.3",
+    "eslint": "^10.0.2",
     "eslint-config-prettier": "^10.1.8",
     "eslint-plugin-vue": "^10.8.0",
     "prettier": "^3.8.1",
     "prettier-plugin-tailwindcss": "^0.7.2",
-    "tailwindcss": "^4.2.0",
+    "tailwindcss": "^4.2.1",
     "vite": "^7.3.1"
   }
 }
