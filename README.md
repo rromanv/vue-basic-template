@@ -5,10 +5,10 @@ A modern Vue 3 starter template with Vite, Tailwind CSS, ESLint, and Prettier.
 ## Features
 
 - ⚡️ [Vue 3](https://vuejs.org/) with `<script setup>` SFC syntax
-- 🚀 [Vite 7](https://vite.dev/) for blazing fast development
+- 🚀 [Vite 8](https://vite.dev/) for blazing fast development
 - 🎨 [Tailwind CSS 4](https://tailwindcss.com/) with CSS-first configuration
-- 📦 [Vue Router 4](https://router.vuejs.org/) for routing
-- 🔍 [ESLint 9](https://eslint.org/) with flat config
+- 📦 [Vue Router 5](https://router.vuejs.org/) for routing
+- 🔍 [ESLint 10](https://eslint.org/) with flat config
 - 💅 [Prettier 3](https://prettier.io/) with Tailwind CSS plugin
 
 ## Recommended IDE Setup
@@ -36,14 +36,14 @@ npm run preview
 
 ## Available Scripts
 
-| Script               | Description                       |
-| -------------------- | --------------------------------- |
-| `npm run dev`        | Start development server          |
-| `npm run build`      | Build for production              |
-| `npm run preview`    | Preview production build          |
-| `npm run lint`       | Lint and auto-fix with ESLint     |
-| `npm run lint:check` | Check linting without auto-fix    |
-| `npm run format`     | Format code with Prettier         |
+| Script                 | Description                       |
+| ---------------------- | --------------------------------- |
+| `npm run dev`          | Start development server          |
+| `npm run build`        | Build for production              |
+| `npm run preview`      | Preview production build          |
+| `npm run lint`         | Lint and auto-fix with ESLint     |
+| `npm run lint:check`   | Check linting without auto-fix    |
+| `npm run format`       | Format code with Prettier         |
 | `npm run format:check` | Check formatting without auto-fix |
 
 ## Project Structure
